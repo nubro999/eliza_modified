@@ -15,5 +15,5 @@ export function initializeDatabase(dataDir: string) {
     // ":memory:";
     const db = new SqliteDatabaseAdapter(new Database(filePath));
     return db;
-  }
+  } //blog comment
 }
